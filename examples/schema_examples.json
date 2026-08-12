@@ -1,0 +1,57 @@
+[
+  {
+    "id": "synthetic-descriptors-001",
+    "example_type": "synthetic_schema_only",
+    "task": "descriptors",
+    "image": "<image-withheld>",
+    "conversations": [
+      {"from": "human", "value": "<image>\nSelect all matching lesion descriptors from the fixed vocabulary. Output terms only."},
+      {"from": "gpt", "value": "papule, erythema, scale"}
+    ]
+  },
+  {
+    "id": "synthetic-diagnosis-001",
+    "example_type": "synthetic_schema_only",
+    "task": "diagnosis",
+    "image": "<image-withheld>",
+    "conversations": [
+      {"from": "human", "value": "<image>\nWhat is the most likely normalized diagnosis?"},
+      {"from": "gpt", "value": "Example normalized diagnosis."}
+    ]
+  },
+  {
+    "id": "synthetic-differential-001",
+    "example_type": "synthetic_schema_only",
+    "task": "differential",
+    "image": "<image-withheld>",
+    "conversations": [
+      {"from": "human", "value": "<image>\nWhich candidate is the most likely diagnosis? A. Condition A; B. Condition B; C. Condition C; D. Condition D. Return the diagnosis name."},
+      {"from": "gpt", "value": "Condition B"}
+    ],
+    "mcq_meta": {
+      "options": {"A": "Condition A", "B": "Condition B", "C": "Condition C", "D": "Condition D"},
+      "answer_text": "Condition B"
+    }
+  },
+  {
+    "id": "synthetic-management-001",
+    "example_type": "synthetic_schema_only",
+    "task": "management",
+    "image": "<image-withheld>",
+    "conversations": [
+      {"from": "human", "value": "<image>\nProvide a concise management recommendation for this synthetic example."},
+      {"from": "gpt", "value": "Example management recommendation."}
+    ]
+  },
+  {
+    "id": "synthetic-consultation-001",
+    "example_type": "synthetic_schema_only",
+    "task": "consultation",
+    "image": "<image-withheld>",
+    "conversations": [
+      {"from": "human", "value": "<image>\nProvide a patient-oriented explanation and follow-up recommendation for this synthetic example."},
+      {"from": "gpt", "value": "Example patient-oriented explanation and follow-up guidance."}
+    ]
+  }
+]
+

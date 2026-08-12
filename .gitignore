@@ -1,0 +1,34 @@
+# Raw or derived images and medical imaging files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.webp
+*.tif
+*.tiff
+*.dcm
+*.nii
+*.nii.gz
+images/
+demo_images/
+case_images/
+
+# Complete or intermediate data artifacts
+train.json
+test.json
+val.json
+reports/
+audits/
+source_indices/
+checkpoints/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Local files
+.DS_Store
+__pycache__/
+*.pyc
+
