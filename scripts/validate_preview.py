@@ -15,6 +15,7 @@ VALID_TASKS = {
 FORBIDDEN_SUFFIXES = {
     ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp", ".tif", ".tiff",
     ".dcm", ".nii", ".nii.gz", ".zip", ".tar", ".gz", ".7z",
+    ".sqlite", ".sqlite3", ".db", ".log", ".pid",
 }
 FORBIDDEN_KEYS = {
     "source", "source_id", "source_index", "original_image_id", "original_url",
@@ -79,4 +80,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

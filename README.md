@@ -33,6 +33,8 @@ reuse is retained because one case may support different questions.
 - `docs/RELEASE_BOUNDARY.md`: explicit inclusion and exclusion boundary.
 - `scripts/validate_preview.py`: validates the preview and blocks image files or
   reconstructable source fields.
+- `annotation_tool/`: generic, local-only review interface. No annotation
+  database or private data are bundled.
 
 ## Deliberately not included
 
@@ -42,8 +44,9 @@ reuse is retained because one case may support different questions.
 - complete train/test annotations and empty validation files;
 - the 60-term list, 68-class mapping, 65-class differential candidate pool, and
   fine-to-coarse mappings;
-- annotation tools, construction scripts, prompts, internal reports, reviewer
-  traces, audit logs, intermediate outputs, or model checkpoints.
+- private annotation databases, construction scripts, prompts, internal
+  reports, reviewer traces, audit logs, intermediate outputs, or model
+  checkpoints.
 
 Raw images must be obtained from the original repositories and used under their
 respective terms. Restricted DDI images and reconstructable records are not
@@ -66,4 +69,3 @@ treatment selection, or clinical decision-making.
 The paper citation will be added after publication. The documentation, synthetic
 examples, and validation script in this preview are released under Apache-2.0.
 No third-party image or dataset license is sublicensed by this repository.
-

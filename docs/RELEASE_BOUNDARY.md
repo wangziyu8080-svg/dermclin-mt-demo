@@ -10,6 +10,7 @@ without disclosing the complete research artifact.
 - an image-free, synthetic example for each task;
 - field definitions and output constraints;
 - a release validator that rejects image files and reconstructable source data.
+- generic annotation-tool source code, with no embedded data or review state.
 
 ## Excluded
 
@@ -17,7 +18,7 @@ without disclosing the complete research artifact.
 - complete annotations, source indices, task partitions, and per-class counts;
 - label vocabularies, taxonomy mappings, candidate pools, and normalization
   dictionaries;
-- physician review records, annotation interfaces, construction code, audit
+- physician review records and annotation databases, construction code, audit
   outputs, internal notes, and intermediate files;
 - training configurations, model weights, and unpublished evaluation artifacts.
 
@@ -28,4 +29,3 @@ annotations, taxonomies, splits, scripts, and audit materials may be released
 later. A future release must undergo a separate privacy, licensing, and
 manuscript-consistency review. This preview does not make that future material
 public by implication.
-
